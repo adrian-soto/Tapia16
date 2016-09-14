@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+               IACS Challenge for Tapia '16 in Austin, TX
+
+	      Institute for Advanced Computational Science
+	               Stony Brook University
+
+	     Adrián Soto - adrian.soto-cambres@stonybrook.edu
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+CHALLENGE
+
+A network (also called a graph) is composed of N nodes and E edges between nodes. The network can be represented by an N x N matrix where the rows and columns correspond to the nodes and the (i,j) entries are equal to A(i,j)==0 if there is an edge connecting j to i and A(i,j)==1 if they are not connected. In this challenge, we will consider only undirected networks, i.e. A(j,i)==A(i,j).
+
+In this repository you can find data files containing five 64 x 64 representing five networks. For ease of readability, rows in the file correspond to the rows of the matrices and the columns in the matrix are separated by spaces in the file.
+
+In this challenge you need use any computational methods or tools you like to match the 5 networks with the following categories
+
+	(a) Radio network (stations - listeners)
+	(b) Cells on a chessboard connected by a knight jump
+	(c) A university lecture
+	(d) Members of gangs in a neighborhood
+	(e) Milk production and distribution network
+
+What method (or methods) did you use to reach your conclusions? What observation was the determining factor for each of your choices?
+
+Note that there are many possible ways you can solve this challenge. Use your intuition and your math, coding, and data science background to make an educated guess!!
+
+
+SUBMISSION AND PRIZE
+
+Before Friday, September 15 at 12:00pm (Central Time) via email with the subject line “TAPIA16 CHALLENGE ANSWER” to adrian.soto-cambres@stonybrook.edu
+
+If there are more than one participant gets all 5 correct matchings, the prize will be awarded to the most creative and/or accurate answer. We will reveal the winner on Friday, September 12 at 5:00pm at the IACS booth.
+
+If you have any questions, please do not hesitate to ask.
+
+
+Good luck!
+Adrián
+
