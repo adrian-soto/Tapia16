@@ -6,7 +6,7 @@
 import numpy as np
 
 
-def loadAA(Afile, delim=' '):
+def loadA(Afile, delim=' '):
 # Read adjacency matrix from file
 
     A = np.loadtxt(Afile)
