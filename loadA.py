@@ -14,10 +14,10 @@ def loadAA(Afile, delim=' '):
 
 
 # Load all matrices into a numpy.array
-A1=loadA('A1.dat')
-A2=loadA('A2.dat')
-A3=loadA('A3.dat')
-A4=loadA('A4.dat')
-A5=loadA('A5.dat')
+A1=loadA('./data/A1.dat')
+A2=loadA('./data/A2.dat')
+A3=loadA('./data/A3.dat')
+A4=loadA('./data/A4.dat')
+A5=loadA('./data/A5.dat')
 
 
