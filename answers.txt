@@ -1,0 +1,54 @@
+Adrian Soto
+Answers to Tapia16 challenge
+
+
+The options are:
+
+	(a) Radio network (stations - listeners)
+	(b) Cells on a chessboard connected by a knight jump
+	(c) A university lecture
+	(d) Members of gangs in a neighborhood
+	(e) Milk production and distribution network
+
+
+
+In order to analyze each networks I am:
+   - plotting the adjacency matrix, A
+   - graphically showing the network
+   - calculating the number of connected components
+   - obtaining the node degree distribution
+
+in addition (and this was not necessary to answer the challenge), I am
+   - calculating the eigenvalue spectrum of the adjacency matrix, A
+   - calculating the eigenvalue spectrum of the normalized Laplacian, L
+
+
+
+A1: (b)
+The degree distribution reveals that the existing degrees are 2, 3, 4, 6 and 8. This clearly corresponds to the knight jumps. 2 for the corners of the chessboards (degree=4), 3 for cells neighboring the corners (degree=8), 4 for the 4 central spots on each side (degree=16), 8 for the central 4x4 central sub lattice (degree 16) and 6 for the remaining cells.
+
+
+
+A2: (e)
+This was possibly the most complicated network to identify. This network is composed of 4  layers, where: 
+	1. the nodes in each layer are not connected among themselves
+	2. nodes are only connected to adjacent layers
+One can see this by partitioning the network and, if the correct partition is chosen, observing that the partition is a bipartite network (see link) itself. Bipartite networks are characterized by their adjacency matrix eigenvalue spectrum, which is symmetric.
+
+
+
+A3: (d)
+This case could be tagged easily because it is the only network with more than one connected component. Gang members are “friends” if they belong to the same gang and “not friends” if they belong to different gangs.
+
+
+A4: (c)
+The degree distribution or the degree centrality are good ways to see that, in this network, one node is connected with all the remaining ones, which are themselves not connected to any other. So this is a university lecture, where one node (the lecturer) is connected with all the remaining nodes (the students).
+
+
+A5: (a)
+Similar to A4, the degree distribution and the degree centrality show that 4 nodes are connected to the remaining 60. This could be representing 4 radio stations that all 60 listeners could tune in to.
+
+
+
+
+https://en.wikipedia.org/wiki/Bipartite_graph#Characterization

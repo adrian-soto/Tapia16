@@ -12,7 +12,7 @@
 
 CHALLENGE
 
-A network (also called a graph) is composed of N nodes and E edges between nodes. The network can be represented by an N x N matrix where the rows and columns correspond to the nodes and the (i,j) entries are equal to A(i,j)==0 if there is an edge connecting j to i and A(i,j)==1 if they are not connected. In this challenge, we will consider only undirected networks, i.e. A(j,i)==A(i,j).
+A network (also called a graph) is composed of N nodes and E edges between nodes. The network can be represented by an N x N matrix where the rows and columns correspond to the nodes and the (i,j) entries are equal to A(i,j)==1 if there is an edge connecting j to i and A(i,j)==0 if they are not connected. In this challenge, we will consider only undirected networks, i.e. A(j,i)==A(i,j).
 
 In this repository you can find data files containing five 64 x 64 representing five networks. For ease of readability, rows in the file correspond to the rows of the matrices and the columns in the matrix are separated by spaces in the file.
 
